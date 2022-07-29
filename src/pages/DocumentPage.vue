@@ -12,8 +12,7 @@
           :items="docs"
           @change="loadSelected"
         />
-        <button @click="handleEdit">Edit</button>
-        <button @click="handleNew">New</button>
+     
         <button @click="handlePrint">Print</button>
         <!-- button @click="handleExportPDF">Export PDF (beta)</button -->
         <button @click="handleToggleSeal">Toggle seal: {{ sealButtonLabel }}</button>
